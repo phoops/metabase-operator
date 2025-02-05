@@ -32,7 +32,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
 	"github.com/go-logr/logr"
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
 )
 
 // MetabaseReconciler reconciles a Metabase object

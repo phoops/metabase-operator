@@ -11,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	controllerruntime "sigs.k8s.io/controller-runtime"
 
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
-	"github.com/unagex/metabase-operator/internal/controller/common"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
+	"github.com/phoops/metabase-operator/internal/controller/common"
 )
 
 func (r *MetabaseReconciler) ManageServices(ctx context.Context, metabase *unagexcomv1.Metabase) error {

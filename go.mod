@@ -1,4 +1,4 @@
-module github.com/unagex/metabase-operator
+module github.com/phoops/metabase-operator
 
 go 1.20
 

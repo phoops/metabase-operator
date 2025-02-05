@@ -33,8 +33,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
-	"github.com/unagex/metabase-operator/internal/controller"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
+	"github.com/phoops/metabase-operator/internal/controller"
 	//+kubebuilder:scaffold:imports
 )
 

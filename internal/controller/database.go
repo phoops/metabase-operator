@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
-	"github.com/unagex/metabase-operator/internal/controller/common"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
+	"github.com/phoops/metabase-operator/internal/controller/common"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"

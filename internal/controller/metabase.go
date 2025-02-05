@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/unagex/metabase-operator/internal/controller/common"
+	"github.com/phoops/metabase-operator/internal/controller/common"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
@@ -15,7 +15,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/utils/ptr"
 
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
 )
 
 func (r *MetabaseReconciler) ManageMetabase(ctx context.Context, metabase *unagexcomv1.Metabase) error {

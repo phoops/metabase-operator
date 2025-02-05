@@ -9,7 +9,7 @@ plugins:
   manifests.sdk.operatorframework.io/v2: {}
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: metabase-operator
-repo: github.com/unagex/metabase-operator
+repo: github.com/phoops/metabase-operator
 resources:
 - api:
     crdVersion: v1
@@ -17,6 +17,6 @@ resources:
   controller: true
   domain: unagex.com
   kind: Metabase
-  path: github.com/unagex/metabase-operator/api/v1
+  path: github.com/phoops/metabase-operator/api/v1
   version: v1
 version: "3"

@@ -2,7 +2,7 @@
 ![Go version](https://img.shields.io/github/go-mod/go-version/unagex/metabase-operator)
 ![Kubernetes Version](https://img.shields.io/badge/Kubernetes-1.18%2B-green.svg)
 ![Release](https://img.shields.io/github/v/release/unagex/metabase-operator)
-[![Go Report Card](https://goreportcard.com/badge/github.com/unagex/metabase-operator)](https://goreportcard.com/report/github.com/unagex/metabase-operator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/phoops/metabase-operator)](https://goreportcard.com/report/github.com/phoops/metabase-operator)
 
 ## Features
 - Create Metabase instances defined as custom resources

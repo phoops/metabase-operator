@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	unagexcomv1 "github.com/unagex/metabase-operator/api/v1"
+	unagexcomv1 "github.com/phoops/metabase-operator/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 
