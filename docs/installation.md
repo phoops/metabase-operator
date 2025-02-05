@@ -127,7 +127,7 @@ The operator Helm chart is deployed by default with [this values.yaml](/charts/o
 
 | Name | Type | Default value
 | --- | --- | --- |
-| operator.image.repository | string | "ghcr.io/unagex/metabase-operator/controller" |
+| operator.image.repository | string | "ghcr.io/phoops/metabase-operator/controller" |
 | operator.image.tag | string | Default to latest version at time of installation. |
 | operator.image.pullPolicy | string | "IfNotPresent" |
 | resources.limits.cpu | string | nil |

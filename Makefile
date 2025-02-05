@@ -1,5 +1,5 @@
 VERSION ?= test
-IMG ?= ghcr.io/unagex/metabase-operator/controller:${VERSION}
+IMG ?= ghcr.io/phoops/metabase-operator/controller:${VERSION}
 
 OPERATOR_SDK_VERSION ?= v1.33.0
 
